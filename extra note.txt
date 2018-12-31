@@ -1,0 +1,14 @@
+git@github.com:j-mayfield-97/dot_moe.git
+
+npm i -D for dev only dependencies
+
+the --prefix client navigates to the client folder
+could also just cd client 
+
+~look up what \"\" actually means
+
+create-react-app <dir>
+
+the package.jason in the client is seperate from server
+
+package client install is to make it easier install for others

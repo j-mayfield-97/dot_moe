@@ -1,0 +1,32 @@
+{
+  "name": "dot_moe",
+  "version": "1.0.0",
+  "description": "Website for Jason",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "client-install": "npm install --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-mayfield-97/dot_moe.git"
+  },
+  "author": "Jason Mayfield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-mayfield-97/dot_moe/issues"
+  },
+  "homepage": "https://github.com/j-mayfield-97/dot_moe#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
